@@ -656,7 +656,7 @@ client.on("interactionCreate", async (interaction, message) => {
     if (interaction.customId === 'button') {
         const embed = new Discord.MessageEmbed()
             .setColor("BLUE")
-            .setDescription(`Salut ${interaction.user} un support viendra à toi d'une minute à l'autre !`);
+            .setDescription(`Salut ${interaction.user} Le support viendras vers toi dans les plus bref délais !`);
 
         interaction.guild.channels.create(`ticket-${interaction.user.username}`, {
             parent: '1037099231867060334',
@@ -749,10 +749,10 @@ client.on("messageCreate", async message => {
         let embed = new Discord.MessageEmbed()
         .setTitle('Voici la pub du serveur !')
         .setDescription(`
-hey je te présente Nezu https://discord.gg/MG6gG6n2sZ
+hey je te présente Altozia https://discord.gg/pNKRWMVgqX
 
 speech_left 
-C'est un serveur communautaire avec peu de personne actif
+C'est un serveur darkrp garry's mod semi serious 
 
 gift 
 *Giveaway
