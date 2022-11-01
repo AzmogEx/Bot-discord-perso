@@ -15,8 +15,8 @@ client.on("ready", async () => {
     console.log('Bot en ligne !')
 
     client.user.setActivity(`Préfix +`, {
-        type: 'STREAMING',
-        url: 'https://www.twitch.tv/nezukotv0'
+        type: 'PLAYING',
+        url: 'https://www.altoziarp.fr'
     })
     client.guilds.cache.get('1037060381274800169').commands.create(say)
     client.guilds.cache.get('1037060381274800169').commands.create(ban)
